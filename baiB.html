@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="baiB.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Lucky Number</h1>
+        </div>
+        <div class="content">
+            <p>Dự đoán con số của bạn nằm trong khoảng từ 1 đến 10</p>
+            
+            <form id="mainForm">
+                <input type="text" name="luckyNumber" placeholder="Nhập con số mà bạn dự đoán">
+                <button id="submit" onclick="checkNumber()">QUAY SỐ</button>
+                <p id="show-error"></p>
+                <p id="show-success"></p>
+            </form>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

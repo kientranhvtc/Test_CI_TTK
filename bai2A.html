@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let s1 = prompt("Nhập chuỗi s1");
+        let s2 = prompt("Nhập chuỗi s2");
+        function merge2String(x,y){
+            let result = "";
+            let i=0;
+            while (i < x.length || i< y.length){
+                if (i < x.length) result += x[i];
+                if (i < y.length) result += y[i];
+                i++;
+            }
+            return result;
+        }
+        console.log(merge2String(s1,s2));
+    </script>
+</body>
+</html>
